@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+
+</head>
+<body>
+
+	<div class="navbar">
+	  <a class="btn active"href="contact.html">Contact</a>
+	  <a class="btn"href="meals.html">Meal Plans</a>
+	  <a class="btn"href="exercises.html">Exercises</a>
+	  <a class="btn" href="home.html">Home</a>
+	  	  <button class="btn" onclick="night()"><i class= "fas fa-moon"></i></button>
+
+	</div>
+
+<h1>Looking for a more personalized approach? Let's work on it together!</h1>
+
+<div class="contact">
+  <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method ="post">
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your name..">
+	
+	<label for="email">Email</label>
+	<input type="text" id ="email" name="email" placeholder="Email...">
+
+    <label for="fitness">Fitness Level</label>
+    <select id="fitness" name="cfitness">
+      <option value="beginner">Beginner</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
+    </select>
+
+    <label for="subject">What motivates you?</label>
+    <textarea id="subject" name="subject" placeholder="Looking hot.." ></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+	<script src = "script.js"></script>
+</body>
+</html>

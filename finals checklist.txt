@@ -1,0 +1,19 @@
+- pictures or videos ***
+
+4 pages ***
+- home page
+- horizontal navigation bar
+1. exercises 2. meals 3. contact
+
+
+- carousel ***
+
+- scroll box  **
+
+- unordered HTML list with entries ***
+
+- button to download files (exercises, meals, pdf) ***
+
+- link to outside webpages ***
+
+- form to submit email and information ***
